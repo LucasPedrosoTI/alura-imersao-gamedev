@@ -16,6 +16,9 @@ function setup() {
 
 function keyPressed() {
   game.keyPressed(key);
+}
+
+function touchStarted() {
   game.touchStarted();
 }
 
