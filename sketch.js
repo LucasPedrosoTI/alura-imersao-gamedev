@@ -16,6 +16,7 @@ function setup() {
 
 function keyPressed() {
   game.keyPressed(key);
+  game.touchStarted();
 }
 
 function draw() {

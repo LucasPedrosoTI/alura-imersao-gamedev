@@ -90,6 +90,14 @@ class Game {
     }
   }
 
+  touchStarted() {
+    if (keyPress < 2) {
+      char.jump(40);
+      jumpSound.play();
+      keyPress++;
+    }
+  }
+
   draw() {
     scenary.show();
     scenary.move();
